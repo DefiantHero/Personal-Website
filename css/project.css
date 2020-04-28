@@ -1,0 +1,75 @@
+html {
+	background-color: black;
+}
+
+body {
+	border-radius: 25px;
+    background-color: rgb(255,255,255,.8);
+	width: 51%;
+	padding:0.5em;
+	margin: 25px auto;
+}
+
+h1 {
+	text-align: center;
+	text-decoration: none;
+	font-size: 2.5em;
+}
+
+h2 {
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.5em;
+}
+
+a {
+	text-decoration: none;
+	font-size: 1em;
+	color: #0000EE;
+}
+
+a:hover {
+	color: rgb(176,2,3);
+	text-decoration: none;
+}
+
+.button {
+	background-color: rgb(255,255,255,.7);
+	border: 1.25px solid rgb(0,0,0);
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 25px;
+	transition-duration: 0.4s;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.button:hover {
+	color: white;
+	background-color: rgb(176,2,3, 0.75);
+	border: none;
+	text-decoration: none;
+}
+
+iframe {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p {
+	font-family: Verdana, "Times New Roman", sans-serif;
+}
+
+h1, h2, h3 {
+	font-family: "Arial", "Times New Roman", sans-serif;
+	text-align: center;
+}
+footer {
+	padding: 1.5em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
